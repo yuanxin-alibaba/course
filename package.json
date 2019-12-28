@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "./node_modules/.bin/webpack",
-    "precommit": "./node_modules/.bin/eslint src"
+    "precommit": "./node_modules/.bin/eslint src",
+    "test": "echo 'test'"
   },
   "dependencies": {
     "webpack": "^4.41.5"
