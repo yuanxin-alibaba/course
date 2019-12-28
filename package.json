@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "./node_modules/.bin/webpack",
+    "build": "npx webpack",
     "precommit": "./node_modules/.bin/eslint src",
     "test": "echo 'test'"
   },
